@@ -1,0 +1,4 @@
+01 Susu 104
+03 Permen 25
+04 Kecap 65
+06 Gula 43

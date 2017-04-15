@@ -1,0 +1,6 @@
+01 Susu 104
+02 Minyak 8
+03 Permen 25
+04 Kecap 65
+06 Gula 43
+09 Chips 5
