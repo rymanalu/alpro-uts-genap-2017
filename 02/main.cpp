@@ -40,5 +40,14 @@ int main() {
     fclose(fileB);
     fclose(fileC);
 
+    fileC = fopen("file_c.txt", "r");
+    printf("|   NPM   |   Kode MK   |   Kelas   |\n");
+
+    while (! feof(fileC)) {
+        fscanf(fileB, "%s %i %s", MahasiswaB.npm, &MahasiswaB.kodeMk, MahasiswaB.kelas);
+
+        printf("    %s          %i             %s\n", MahasiswaB.npm, MahasiswaB.kodeMk, MahasiswaB.kelas);
+    }
+
     return 0;
 }
